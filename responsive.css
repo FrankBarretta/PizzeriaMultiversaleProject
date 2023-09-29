@@ -1,0 +1,38 @@
+@media only screen and (min-width: 720px) {
+
+
+    .infoNav {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .aboutImage {
+        display: initial;
+        width: 60%;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+
+
+
+    #menuBox {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    
+    .menuImage {
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+    
+    .menuText {
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    
+}

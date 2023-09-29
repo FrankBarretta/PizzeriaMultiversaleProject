@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Caprasimo', cursive;
+}
+
+nav {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/*     background-color: white; */
+    padding: 1%;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.infoNav {
+    display: none;
+}
+
+.chisiamo, .menu, .contatti {
+    margin-right: 40px;
+}
+
+nav a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.pizza_image {
+    margin-top: 60px;
+}
+
+#aboutBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImage {
+    display: none;
+    width: 60%;
+/*     margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px; */
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     margin-top: 50px;
+    margin-right: 100px; */
+    width: 100%;
+}
+
+#menuBox {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.menuImage {
+    width: 90%;
+/*     margin-left: 10%;
+    margin-top: 50px; */
+}
+
+.menuText {
+/*     margin-left: 10%;
+    margin-top: 50px; */
+}
+
+#contattiBox {
+/*     margin: 0px 125px;
+    margin-top: 100px */
+}
+
+input {
+    border: none;
+    border-bottom: 1px black solid;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 70%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
